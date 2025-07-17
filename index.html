@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Page</title>
+    <link rel="stylesheet" href="styles/style2.css">
+</head>
+
+<body>
+    
+    <div id="wrapper">
+        <div id="header"></div>
+        <main>
+            <section>
+                <img src="">
+                <p>Pie sweet oat cake sweet roll candy canes. Sweet cheesecake chocolate bar icing cookie lollipop apple pie pie. Gummi bears sesame snaps powder sweet roll brownie candy canes tootsie roll. Pudding sesame snaps soufflé bonbon dragée chocolate bar apple pie. Bear claw danish croissant dessert carrot cake icing cupcake lollipop. Gummies topping tiramisu oat cake halvah chocolate chocolate bar.</p>
+            </section>
+            <section>
+                <p>Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters.</p>
+                <img src="">
+            </section>
+            <section>
+                <img src="">
+                <p>Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</p>
+            </section>
+
+            <table>
+                <tr>
+                    <th>Class Name</th>
+                    <th>Time</th>
+                    <th>Room Number</th>
+                </tr>
+                <tr>
+                    <td>Web Fundamentals</td>
+                    <td>T H 9am</td>
+                    <td>STC 385</td>
+                </tr>
+                <tr>
+                    <td>Intro to Programming</td>
+                    <td>M W 9am</td>
+                    <td>STC 367</td>
+                </tr>
+            </table>
+        </main>
+        <div id="footer"></div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("header").innerHTML = data;
+                });
+
+            fetch('footer.html')
+                .then(response => response.text())
+                .then (data => {
+                    document.getElementById("footer").innerHTML = data;
+                });
+        });
+    </script>
+</body>
+
+</html>

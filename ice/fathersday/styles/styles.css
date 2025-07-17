@@ -1,0 +1,89 @@
+/* Add your CSS here to style your father's day page */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+header {
+  background-color: #152F5F;
+  padding: 20px 0;
+  text-align: center;
+  font-family: 'Syne';
+  font-weight: 800px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px; 
+}
+
+header nav ul li {
+  font-family: syne;
+  color: #f5f5f5;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+header nav ul li:hover {
+  background-color: #7894C0;
+  color: #1e2a38;
+  transform: scale(1.1);
+}
+
+body {
+    background: #F6F7E6;
+    background-image: url('https://www.transparenttextures.com/patterns/pinstripe.png');
+}
+
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Syne';
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #152F5F;
+  margin-top: 30px;
+}
+
+section h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1e2a38;
+}
+
+section:nth-of-type(1) {
+  background-color: #7894C0;
+  padding: 20px;
+  margin: 20px;
+}
+
+section:nth-of-type(2) {
+  background-color: #34549D;
+  padding: 20px;
+  margin: 20px;
+}
+
+section:nth-of-type(3) {
+  background-color: #7894C0;
+  padding: 20px;
+  margin: 20px;
+}
+
+h1:hover {
+  color: #18409D;
+  transform: scale(1.02);
+  transition: all 0.3s ease;
+}

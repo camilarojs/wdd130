@@ -1,0 +1,274 @@
+/* Fonts */
+    /* Playfair Display*/
+@font-face {
+    font-family: 'PF Display-black';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-blacki';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-bold';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-boldi';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-extrabold';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-extraboldi';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-i';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-medium';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-mediumi';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-semibold';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PF Display-semiboldi';
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
+}
+
+    /* Lato */
+@font-face {
+    font-family: 'Lato-black';
+    src: url('../fonts/Lato/Lato-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-blacki';
+    src: url('../fonts/Lato/Lato-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-bold';
+    src: url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-boldi';
+    src: url('../fonts/Lato/Lato-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-i';
+    src: url('../fonts/Lato/Lato-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-light';
+    src: url('../fonts/Lato/Lato-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-lighti';
+    src: url('../fonts/Lato/Lato-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-thin';
+    src: url('../fonts/Lato/Lato-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato-thini';
+    src: url('../fonts/Lato/Lato-ThinItalic.ttf') format('truetype');
+}
+
+/* CSS */
+* {
+    margin-top: 0;
+}
+
+.bg_main {
+    background-color: #3F3F37;
+    color: #878472;
+}
+
+.bg_second {
+    background-color: #D6D6B1;
+    color: #494331;
+}
+
+.bg_acc1 {
+    background-color: #494331;
+    color: #d6d6b1;
+}
+
+.bg_acc2 {
+    background-color: #878472;
+    color: #3f3f37;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 3em;
+}
+
+h2 {
+    margin: 20px;
+    font-size: 2em;
+}
+
+h3 {
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+.spaced_heading {
+    margin-top: 200px;
+}
+
+body {
+    margin: 0;
+    font-family: 'PF Display-i', serif, arial;
+}
+
+a, p {
+    font-family: 'Lato-i', serif, arial;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 120px;
+    margin: 0;
+}
+
+nav h1 {
+    margin: auto 0;
+}
+
+a {
+    margin: auto 10px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.button_main {
+    margin: auto 0;
+}
+
+.button_main a {
+    padding: 20px;
+    background-color: #3F3F37;
+    color: #878472;
+}
+
+.button_main a:hover {
+    background-color: #494331;
+    color: #d6d6b1;
+}
+
+.button_second a {
+    padding: 20px;
+    background-color: #D6D6B1;
+    color: #494331;
+}
+
+.button_second a:hover {
+    background-color: #878472;
+    color: #3f3f37;
+}
+
+.centered {
+    justify-content: center;
+    text-align: center;
+}
+
+.center_me {
+    justify-self: center;
+}
+
+#daily_recipe {
+    width: 50%;
+    height: 500px;
+    margin: 0 auto 200px auto;
+    background: linear-gradient(rgba( 0, 0, 0, 0.7), rgba( 0, 0, 0, 0.7)), url(../images/Spicy-Noodles-skillet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+#daily_recipe ul {
+    padding: 0 0 50px 0;
+    list-style: none;
+}
+
+.recipe-grid {
+    max-width: 1100px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 60px 40px;
+}
+
+.recipe-card {
+    background: #d6d6b1;
+    padding: 0 0 18px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+}
+
+.recipe-card h3 {
+    margin: 12px 10px 4px;
+    font-size: 1.2em;
+    color: #3f3f37;
+    font-family: 'PF Display-semibold', serif;
+}
+
+.recipe-card ul,
+.recipe-card ol {
+    margin: 4px 20px;
+    padding-left: 18px;
+    font-size: 0.95em;
+    color: #3f3f37;
+    line-height: 1.35em;
+    font-family: 'Lato', sans-serif;
+}
